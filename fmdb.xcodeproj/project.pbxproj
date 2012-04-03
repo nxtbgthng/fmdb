@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* fmdb.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* fmdb.1 */; };
-		99ED61C214F29DC7004AF5D1 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC24EBA0A13E34D00A6D3E3 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99ED61C214F29DC7004AF5D1 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC24EBA0A13E34D00A6D3E3 /* FMDatabase.h */; settings = {ATTRIBUTES = (); }; };
 		99ED61C314F29DC7004AF5D1 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CC50F2CC0DF9183600E4AAAE /* FMDatabaseAdditions.h */; };
-		99ED61C414F29DC7004AF5D1 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC24EBF0A13E34D00A6D3E3 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99ED61C414F29DC7004AF5D1 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC24EBF0A13E34D00A6D3E3 /* FMResultSet.h */; settings = {ATTRIBUTES = (); }; };
 		99ED61C514F29DC7004AF5D1 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9E4EB713B31188005F9210 /* FMDatabasePool.h */; };
 		99ED61C614F29DC7004AF5D1 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = CC47A00D148581E9002CCDAB /* FMDatabaseQueue.h */; };
 		99ED61C814F29DC7004AF5D1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EBB0A13E34D00A6D3E3 /* FMDatabase.m */; };
@@ -189,8 +189,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99ED61C214F29DC7004AF5D1 /* FMDatabase.h in Headers */,
 				99ED61C314F29DC7004AF5D1 /* FMDatabaseAdditions.h in Headers */,
+				99ED61C214F29DC7004AF5D1 /* FMDatabase.h in Headers */,
 				99ED61C414F29DC7004AF5D1 /* FMResultSet.h in Headers */,
 				99ED61C514F29DC7004AF5D1 /* FMDatabasePool.h in Headers */,
 				99ED61C614F29DC7004AF5D1 /* FMDatabaseQueue.h in Headers */,
